@@ -17,7 +17,8 @@ pnpm install directus-extension-wpslug-interface && pnpm install pg && \
 pnpm install directus-extension-flexible-editor && pnpm install @directus-labs/simple-list-interface && \
 pnpm install @directus-labs/migration-bundle && \
 pnpm install directus-extension-sync && \
-pnpm install @directus-labs/super-header-interface
+pnpm install @directus-labs/super-header-interface && \
+pnpm install directus-extension-ai-agent
 
 # Migrations and Directus schema update
 RUN npx directus bootstrap
